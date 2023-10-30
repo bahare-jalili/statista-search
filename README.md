@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Statista Search
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A basic search page user interface, based on the Statista Search API data.
 
-## Available Scripts
+## 💡 Features
 
-In the project directory, you can run:
+- Fully Developed using ReactJS
+- Reusable Reactive UI Components
+- Fully Responsive Layout
+- Well Tested (Unit Tests)
+- Clean Code
+- Organized Folder Structure
 
-### `yarn start`
+## 📋 Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```bash
+# install dependencies
+npm install # or yarn
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# serve in dev mode, with hot reload at localhost:3000
+npm start
+```
 
-### `yarn test`
+## 💻 Build
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+# build for production environment
+npm run build
+```
 
-### `yarn build`
+## 🧐 Advanced
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+# run unit tests
+npm test
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Next Steps
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- To enhance reusability, consider creating separate components for inputs, buttons, and other small elements.
+- As the project grows, it will be essential to incorporate a state management system to effectively handle the increased complexity and evolving needs of the application.
+- Enhancements are needed in the search input functionality to enable searching in real-time, as the current implementation is limited by the provided JSON file for API calls.
+- To ensure comprehensive test coverage, we should consider implementing end-to-end (E2E) tests.
+- In order to improve the management of meta tags across multiple pages, we can utilize the "react-helmet" library to dynamically add meta tags. This allows us to avoid manually adding meta tags in the index.html file.
+- Additional features like Pagination, Sorting, Filters, and more could be implemented provided there was sufficient time.
+- Creating individual files to store constant strings such as "TOTAL RESULTS:" and others, allows for the reusability of strings and their use in multilingual applications.
