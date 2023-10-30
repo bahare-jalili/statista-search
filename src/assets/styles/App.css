@@ -1,0 +1,68 @@
+header {
+  padding: 20px;
+}
+.page__content {
+  min-height: unset;
+}
+
+/* You can use the basic styles from statista.com here. */
+
+.searchApp__container {
+  max-width: 600px;
+  margin: 20px auto;
+}
+.searchApp__submitButton {
+  position: absolute;
+  margin: 0;
+  right: 0;
+  top: 0;
+}
+.searchApp__results {
+  max-width: 600px;
+  margin: 20px auto;
+}
+.itemContent__text {
+  color: #0666e5;
+  font-size: 16px;
+  font-weight: 600;
+  height: 23px;
+  letter-spacing: 0.1px;
+  margin: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.itemContent__subline {
+  color: #455f7c;
+  font-size: 14px;
+  height: 22px;
+  letter-spacing: 0.1px;
+  margin-top: 5px;
+  max-width: 690px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.item__text {
+  color: #666;
+  font-size: 12px;
+  padding-left: 8px;
+}
+.item__icon {
+  grid-column-end: content;
+  grid-column-start: icon;
+  margin-bottom: 5px;
+}
+
+.itemContainer:hover {
+  background: #f5f8fb;
+  border-radius: 3px;
+}
+.resultsBox {
+  padding: 0.7rem;
+}
+
+.searchApp__alerts {
+  max-width: 600px;
+  margin: 20px auto;
+}
