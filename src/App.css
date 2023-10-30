@@ -1,0 +1,23 @@
+header {
+  padding: 20px;
+}
+.page__content {
+  min-height: unset;
+}
+
+/* You can use the basic styles from statista.com here. */
+
+.searchApp__container {
+  max-width: 600px;
+  margin: 20px auto;
+}
+.searchApp__submitButton {
+  position: absolute;
+  margin: 0;
+  right: 0;
+  top: 0;
+}
+.searchApp__results {
+  max-width: 600px;
+  margin: 20px auto;
+}
